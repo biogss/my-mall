@@ -27,7 +27,7 @@
             <!--解决mysql驱动升级到8.0后不生成指定数据库代码的问题-->
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
-        <javaModelGenerator targetPackage="com.example.mall" targetProject="mall-mbg\src\main\java"></javaModelGenerator>
+        <javaModelGenerator targetPackage="com.example.mall.model" targetProject="mall-mbg\src\main\java"></javaModelGenerator>
         
         <sqlMapGenerator targetPackage="com.example.mall.mapper" targetProject="mall-mbg\src\main\resources"/>
 
